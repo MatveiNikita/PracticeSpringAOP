@@ -13,7 +13,7 @@ public class Person {
 
     String name;
     @Autowired
-    public Person(@Qualifier("Grig") Leo leo){
+    public Person(@Qualifier("Greg") Leo leo){
         this.leo = leo;
     }
     public Leo getLeo() {

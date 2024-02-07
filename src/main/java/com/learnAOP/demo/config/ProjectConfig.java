@@ -20,10 +20,10 @@ public class ProjectConfig {
     }
 
     @Bean
-    @Qualifier("Grig")
+    @Qualifier("Greg")
     Leo leo1(){
         Leo leo = new Leo();
-        leo.setName("Grig");
+        leo.setName("Greg");
         return leo;
     }
 }
